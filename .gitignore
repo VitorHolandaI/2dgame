@@ -1,0 +1,53 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+art
+fonts
+*.import
+*.uid
+
+# Godot-specific
+.import/
+export.cfg
+export_presets.cfg
+
+# User-specific editor settings
+.godot/
+*.godot/tmp/
+
+# Mono (C#) specific
+.mono/
+data_*/
+mono_crash.*
+
+# Compiled binaries
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.so
+*.dylib
+*.a
+*.lib
+
+# Build directory
+/bin/
+obj/
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+# Rider/VSCode/IDEA
+.idea/
+.vscode/
+*.csproj
+*.sln
+*.user
+*.pidb
+*.suo
+*.userprefs
+*.unityproj
+# Logs
+*.log
